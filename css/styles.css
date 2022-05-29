@@ -16,6 +16,10 @@ body {
   color: var(--accessory-text-color);
 }
 
+header {
+  border: 1px solid #ececec;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
