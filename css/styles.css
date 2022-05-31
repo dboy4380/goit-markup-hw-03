@@ -361,6 +361,7 @@ address {
 
 .project-item {
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .project-item:hover {
