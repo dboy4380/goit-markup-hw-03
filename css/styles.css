@@ -57,9 +57,6 @@ ol {
 button {
   font-family: inherit;
   cursor: pointer;
-  background: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 footer {
@@ -222,6 +219,9 @@ address {
   font-size: 16px;
   line-height: 1.87;
   color: var(--first-back-color);
+  background: var(--accent-color);
+  border-radius: 4px;
+
 
   border: none;
   padding: 10px 35px;
@@ -364,11 +364,9 @@ address {
 }
 
 .project-item:hover {
-  
-  border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition-duration: 1s;
+  transition-duration: 1s;
     
 }
 
@@ -403,6 +401,7 @@ address {
   background: var(--accent-color);
   color: var(--first-back-color);
   transition-duration: 1s;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button-list {
